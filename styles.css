@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+/* Background for entire page */
+body {
+  background-color: rgb(204, 204, 204);
+}
+
+/* Center headings */
+h1, h2 {
+  text-align: center;
+}
+
+/* Remove default padding for ul */
+ul {
+  padding-left: 0;
+}
+
+/* Remove bullet points */
+li {
+  list-style-type: none;
+}
+
+/* Remove underline from links */
+a {
+  text-decoration-line: none;
+}
+
+/* Style for video and audio containers */
+.player_one,
+.player_two {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 20px auto;
+}
